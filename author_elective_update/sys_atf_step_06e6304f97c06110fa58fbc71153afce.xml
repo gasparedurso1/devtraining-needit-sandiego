@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+First name = Jane
+and Last name = Doe
+and Roles = admin
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create and impersonate user with the following values</notes>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 23:53:42</sys_created_on>
+        <sys_id>06e6304f97c06110fa58fbc71153afce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_06e6304f97c06110fa58fbc71153afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 00:01:38</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="Validate Email Incident">4cc7121697002110fa58fbc71153af72</test>
+        <timeout/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=06e6304f97c06110fa58fbc71153afce"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>06e6304f97c06110fa58fbc71153afce</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 23:53:42</sys_created_on>
+        <sys_id>3b68f88b97c06110fa58fbc71153af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 23:53:42</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>06e6304f97c06110fa58fbc71153afce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 23:53:42</sys_created_on>
+        <sys_id>7768f88b97c06110fa58fbc71153af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 23:53:42</sys_updated_on>
+        <value>first_name=Jane^last_name=Doe^roles=admin^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>06e6304f97c06110fa58fbc71153afce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 23:53:42</sys_created_on>
+        <sys_id>b368f88b97c06110fa58fbc71153af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 23:53:42</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=06e6304f97c06110fa58fbc71153afce"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1288be3adbc3895007072f17d496192d</instance_id>
+        <instance_name>dev126970</instance_name>
+        <name>sys_atf_step_06e6304f97c06110fa58fbc71153afce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the following values on the form:
+First name = Jane
+and Last name = Doe
+and Roles = admin
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes>Create and impersonate user with the following values</notes><order>2</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 23:53:42</sys_created_on><sys_id>06e6304f97c06110fa58fbc71153afce</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_06e6304f97c06110fa58fbc71153afce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-02 00:01:38</sys_updated_on><table>sys_user</table><test display_value="Validate Email Incident">4cc7121697002110fa58fbc71153af72</test><timeout/><warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=06e6304f97c06110fa58fbc71153afce"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>06e6304f97c06110fa58fbc71153afce</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 23:53:42</sys_created_on><sys_id>3b68f88b97c06110fa58fbc71153af3b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 23:53:42</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>06e6304f97c06110fa58fbc71153afce</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 23:53:42</sys_created_on><sys_id>7768f88b97c06110fa58fbc71153af3c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 23:53:42</sys_updated_on><value>first_name=Jane^last_name=Doe^roles=admin^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>06e6304f97c06110fa58fbc71153afce</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 23:53:42</sys_created_on><sys_id>b368f88b97c06110fa58fbc71153af3c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 23:53:42</sys_updated_on><value>sys_user</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=06e6304f97c06110fa58fbc71153afce"/></record_update>]]></payload>
+        <payload_hash>197215772</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>92b38e6f97030110fa58fbc71153afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 00:01:38</sys_created_on>
+        <sys_id>ff3ab04397046110fa58fbc71153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1856fc8a5880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 00:01:38</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>f73ab043b3046110e4003eab69165a22</update_guid>
+        <update_guid_history>f73ab043b3046110e4003eab69165a22:197215772,8fa8b4cfddc06110309eaf0be13571c9:-1589650277,f768f88b05c061103a1413147aa5303e:-524019426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 00:02:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>5ecc649149c64ab8b898005178a79e79</sys_id>
+        <sys_metadata>06e6304f97c06110fa58fbc71153afce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_06e6304f97c06110fa58fbc71153afce</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_06e6304f97c06110fa58fbc71153afce">ff3ab04397046110fa58fbc71153af22</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 00:02:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
